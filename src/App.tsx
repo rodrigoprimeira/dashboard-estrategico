@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { dadosMock, VendaData } from './data/mockData';
 import { exportarDadosParaJSON } from './data/exportData';
+import Footer from './components/Footer';
 import ResumoExecutivo from './components/ResumoExecutivo';
 import AnaliseTemporalChart from './components/AnaliseTemporalChart';
 import RecorrenciaCompraHeatmap from './components/RecorrenciaCompraHeatmap';
@@ -214,11 +215,7 @@ function App() {
         </div>
       </main>
       
-      <footer className="bg-white dark:bg-gray-800 p-4 mt-8 shadow-inner">
-        <div className="container mx-auto text-center text-gray-600 dark:text-gray-400">
-          <p>Dashboard Estratégico - Prova de Conceito © {new Date().getFullYear()}</p>
-        </div>
-      </footer>
+      <Footer version="1.0.1" />
     </div>
   );
 }

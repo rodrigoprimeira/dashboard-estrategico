@@ -2,6 +2,17 @@
 
 Este projeto é uma prova de conceito (POC) de um dashboard estratégico para análise de dados de vendas, utilizando React, Tailwind CSS e Recharts.
 
+![Dashboard Estratégico](https://via.placeholder.com/800x400?text=Dashboard+Estratégico)
+
+## Demonstração
+
+Para ver uma demonstração ao vivo, clone este repositório e execute:
+
+```bash
+npm install
+npm run dev
+```
+
 ## Visão Geral
 
 O dashboard apresenta uma análise completa de dados de vendas, incluindo:
@@ -30,7 +41,7 @@ O dashboard apresenta uma análise completa de dados de vendas, incluindo:
 
 ## Estrutura do Projeto
 
-```
+```text
 dashboard-estrategico/
 ├── src/
 │   ├── components/         # Componentes React
